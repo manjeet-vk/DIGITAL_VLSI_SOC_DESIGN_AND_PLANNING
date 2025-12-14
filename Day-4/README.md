@@ -1,7 +1,7 @@
 # Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
 
-##Introduction to Chip Design
-##Chip Components
+## Introduction to Chip Design
+## Chip Components
 
 **Pads**
 Pads are used to transfer signals between the external environment and the internal circuitry of the chip.
