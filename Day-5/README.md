@@ -66,8 +66,8 @@ gen_pdn
 
 Screenshots of power distribution network run
 
-![1](Screenshots/D45/6.png)
-![1](Screenshots/D45/5.png)
+![1](Images/6.png)
+![1](Images/5.png)
 
 Commands to load PDN def in magic in another terminal
 
@@ -81,9 +81,9 @@ magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs
 
 Screenshots of PDN def
 
-![2](Screenshots/D45/4.png)
-![2](Screenshots/D45/3.png)
-![2](Screenshots/D45/2.png)
+![2](Images/4.png)
+![2](Images/3.png)
+![2](Images/2.png)
 
 #### 2. Perfrom detailed routing using TritonRoute and explore the routed layout.
 
@@ -102,7 +102,7 @@ run_routing
 
 Screenshots of routing run
 
-![1](Screenshots/D45/1.png)
+![1](Images/1.png)
 ![1](Images/1.png)
 ![1](Images/2.png)
 
