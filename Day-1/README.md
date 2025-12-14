@@ -85,6 +85,7 @@ Register Transfer Level (RTL) describes digital circuits in terms of data flow b
 Electronic Design Automation (EDA) tools assist in designing, simulating, verifying, and fabricating ICs.
 
 Popular open-source EDA tools include:
+
 **1.OpenLANE**
 
 **2.OpenROAD**
@@ -197,9 +198,9 @@ Long metal wires can accumulate charge during fabrication, damaging transistor g
 Solutions:
 
 - Wire segmentation
-- 
+  
 - Higher metal layer bridges
-- 
+  
 - Antenna diode insertion
 
 OpenLANE automatically inserts fake diodes during placement and replaces them if violations are detected.
@@ -209,27 +210,28 @@ OpenLANE automatically inserts fake diodes during placement and replaces them if
 - RC extraction using DEF2SPEF
   
 - Timing analysis using OpenSTA
-- 
+  
 - Reports setup/hold violations
 
 **Physical Verification**
 
 - DRC: Magic
-- 
+  
 - LVS: Magic + Netgen
-- 
+  
 - SPICE extraction: Magic
 
 ## OpenLANE Directory Structure
 
+
 **Using sky130_fd_sc_hd PDK:**
 
 - sky130 → process node
-- 
+  
 - fd → foundry (SkyWater)
-- 
+  
 - sc → standard cells
-- 
+  
 - hd → high-density variant
 
 Includes files:
@@ -255,23 +257,35 @@ Start OpenLANE in interactive mode and prepare the design:
 ## Synthesis and Review
 
 After preparation:
+
 A run directory is created
-'temp''/merged.lef' contains layout info
-'Reports' stored under reports/
-'Results' stored under results/
+
+`temp``/merged.lef` contains layout info
+
+`Reports` stored under reports/
+
+`Results`
+ stored under results/
+
 
 Run Synthesis:To start synthesis, run the command
-'run_synthesis'
+
+`run_synthesis`
+
 
 ![D10](Images/d10.png)
+
 ![D11](Images/d11.png)
+
 ![D12](Images/d12.png)
 
 
 ## Synthesis Results:
 
 Flip-flops: 1613
+
 Total cells: 14876
+
 Flop Ratio: 10.84%
 
 ![D13](Images/d13.png)
