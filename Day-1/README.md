@@ -1,6 +1,6 @@
 # Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
 
-[Screenshot 16-02-46](Day-1/Images/Screenshot 2025-12-14 215311.png)
+![Screenshot 16-02-46](Day-1/Images/Screenshot 2025-12-14 215311.png)
 ![a1](Day-1/Images/Screenshot 2025-12-14 215311.png)
 
 
@@ -9,6 +9,12 @@
 
 **Pads**
 Pads are used to transfer signals between the external environment and the internal circuitry of the chip.
+
+
+![Screenshot 16-02-46](Day-1/Images/Screenshot 2025-12-14 215311.png)
+![a1](Day-1/Images/Screenshot 2025-12-14 215311.png)
+
+
 
 **Core**
 The core is the region where all standard cells and logic gates are placed and interconnected.
