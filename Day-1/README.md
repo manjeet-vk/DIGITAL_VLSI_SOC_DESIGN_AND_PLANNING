@@ -139,22 +139,31 @@ RTL is converted into a gate-level netlist using standard cell libraries.
 **Step 6: Sign-Off**
 
 - Physical Verification: Design rule checking of the final layout.
+  
 - Timing Verification: Static Timing Analysis is performed.
 
 ## What is OpenLANE?
 
 OpenLANE is an automated RTL-to-GDSII flow composed of multiple open-source tools:
+
 1.OpenROAD
+
 2.Yosys
+
 3.Magic
+
 4.Netgen
+
 5.OpenSTA
+
 6.KLayout
 
 **OpenLANE Goals:**
 
 - No human intervention
+  
 - Clean GDSII output
+  
 - Zero DRC, LVS, and timing violations
 
 **OpenLANE is optimized for the Sky130 PDK and supports both:**
@@ -169,10 +178,15 @@ OpenLANE is an automated RTL-to-GDSII flow composed of multiple open-source tool
 **Key Stages:**
 
 1.Floorplanning & Power Planning
+
 2.Tap Cell & Decap Insertion
+
 3.Placement & Optimization
+
 4.CTS
+
 5.Routing
+
 6.Verification
 
 Every netlist modification is verified using Logical Equivalence Checking (LEC) via Yosys.
@@ -181,8 +195,11 @@ Every netlist modification is verified using Logical Equivalence Checking (LEC) 
 
 Long metal wires can accumulate charge during fabrication, damaging transistor gates.
 Solutions:
+
 - Wire segmentation
+- 
 - Higher metal layer bridges
+- 
 - Antenna diode insertion
 
 OpenLANE automatically inserts fake diodes during placement and replaces them if violations are detected.
@@ -190,23 +207,33 @@ OpenLANE automatically inserts fake diodes during placement and replaces them if
 **Static Timing Analysis (STA)**
 
 - RC extraction using DEF2SPEF
+  
 - Timing analysis using OpenSTA
+- 
 - Reports setup/hold violations
 
 **Physical Verification**
+
 - DRC: Magic
+- 
 - LVS: Magic + Netgen
+- 
 - SPICE extraction: Magic
 
 ## OpenLANE Directory Structure
 
 **Using sky130_fd_sc_hd PDK:**
+
 - sky130 → process node
+- 
 - fd → foundry (SkyWater)
+- 
 - sc → standard cells
+- 
 - hd → high-density variant
 
 Includes files:
+
 LEF, GDS, LIB, CDL, SPICE, MAG, TECHLEF
 
 ## Design Preparation Step
@@ -234,7 +261,7 @@ A run directory is created
 'Results' stored under results/
 
 Run Synthesis:To start synthesis, run the command
-run_synthesis
+'run_synthesis'
 
 ![D10](Images/d10.png)
 ![D11](Images/d11.png)
