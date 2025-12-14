@@ -61,7 +61,9 @@ Instructions act as the interface between software and hardware, allowing the pr
 
 To design a Digital ASIC, three essential elements are required:
 
-### RTL Design, EDA Tools, PDK Data
+**RTL Design**
+**EDA Tools**
+**PDK Data**
 
 **What is RTL Design?**
 
@@ -70,9 +72,7 @@ Register Transfer Level (RTL) describes digital circuits in terms of data flow b
 **Open-source RTL resources:**
 
 **1.librecores.org**
-
 **2.opencores.org**
-
 **3.github.com**
 
 **What are EDA Tools?**
