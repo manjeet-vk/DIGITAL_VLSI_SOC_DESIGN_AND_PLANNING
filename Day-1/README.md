@@ -67,7 +67,7 @@ To design a Digital ASIC, three essential elements are required:
 
 **- PDK Data**
 
-**What is RTL Design?**
+### What is RTL Design?
 
 Register Transfer Level (RTL) describes digital circuits in terms of data flow between registers and logical operations. RTL is written using HDL languages such as Verilog or VHDL.
 
@@ -80,7 +80,7 @@ Register Transfer Level (RTL) describes digital circuits in terms of data flow b
 **3.github.com**
 
 
-**What are EDA Tools?**
+### What are EDA Tools?
 
 Electronic Design Automation (EDA) tools assist in designing, simulating, verifying, and fabricating ICs.
 
@@ -91,7 +91,7 @@ Popular open-source EDA tools include:
 
 **3.Qflow**
 
-**What is PDK Data?**
+### What is PDK Data?
 
 PDK (Process Design Kit) acts as the interface between design and fabrication.
 
