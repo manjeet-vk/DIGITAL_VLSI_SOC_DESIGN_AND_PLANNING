@@ -242,7 +242,7 @@ LEF, GDS, LIB, CDL, SPICE, MAG, TECHLEF
 
 Start OpenLANE in interactive mode and prepare the design:
 
-'prep -design picorv32a'
+`prep -design picorv32a`
 
 ![D6](Images/d6.png)
 
