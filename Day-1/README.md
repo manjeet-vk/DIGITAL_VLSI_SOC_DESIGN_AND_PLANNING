@@ -7,12 +7,6 @@
 **Pads**
 Pads are used to transfer signals between the external environment and the internal circuitry of the chip.
 
-
-![D1](Images/d1.png)
-
-
-
-
 **Core**
 The core is the region where all standard cells and logic gates are placed and interconnected.
 
@@ -22,16 +16,14 @@ The die represents the entire silicon area of the chip and defines its physical 
 ## RISC-V SoC Overview
 
 A RISC-V SoC typically consists of components such as:
-**SRAM
+SRAM
 SoC logic
 ADC
 DAC
 SPI
-**
-These components are referred to as Foundry IPs. Chip fabrication depends on the foundry, where processes such as deposition and lithography are used.
-[Screenshot 16-02-46](Day-1/Images/Screenshot 2025-12-14 215311.png)
-![a1](Images/Screenshot 2025-12-14 215311.png)
 
+These components are referred to as Foundry IPs. Chip fabrication depends on the foundry, where processes such as deposition and lithography are used.
+![D1](Images/d1.png)
 📗 Introduction to RISC-V
 
 RISC-V is an open-standard Instruction Set Architecture (ISA) based on Reduced Instruction Set Computing (RISC) principles. The term “V” denotes the fifth generation of RISC architecture developed at UC Berkeley.
