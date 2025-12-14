@@ -45,16 +45,16 @@ run_floorplan
 
 Screenshot of floorplan run
 
-![1](Screenshots/12.png)
-![2](Screenshots/13.png)
-![15](Screenshots/11.png)
-![16](Screenshots/14.png)
+![1](Images/12.png)
+![2](Images/13.png)
+![15](Images/11.png)
+![16](Images/14.png)
 
 #### 2. Calculate the die area in microns from the values in floorplan def.
 
 Screenshot of contents of floorplan def
 
-![3](Screenshots/15.png)
+![3](Images/15.png)
 
 According to floorplan def
 ```math
@@ -93,19 +93,19 @@ magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs
 
 Screenshots of floorplan def in magic
 
-![4](Screenshots/16.png)
+![4](Images/16.png)
 
 Equidistant placement of ports & Port layer as set through config.tcl & Decap Cells and Tap Cells
 
-![6](Screenshots/17.png)
+![6](Images/17.png)
 
 Diogonally equidistant Tap cells
 
-![9](Screenshots/19.png)
+![9](Images/19.png)
 
 Unplaced standard cells at the origin
 
-![10](Screenshots/18.png)
+![10](Images/18.png)
 
 #### 4. Run 'picorv32a' design congestion aware placement using OpenLANE flow and generate necessary outputs.
 
@@ -118,7 +118,7 @@ run_placement
 
 Screenshots of placement run
 
-![11](Screenshots/20.png)
+![11](Images/20.png)
 
 #### 5. Load generated placement def in magic tool and explore the placement.
 
@@ -134,8 +134,8 @@ magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs
 
 Screenshots of floorplan def in magic
 
-![13](Screenshots/21.png)
+![13](Images/21.png)
 
 Standard cells legally placed 
 
-![14](Screenshots/22.png)
+![14](Images/22.png)
