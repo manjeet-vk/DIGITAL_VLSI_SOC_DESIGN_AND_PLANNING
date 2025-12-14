@@ -1,6 +1,7 @@
 # DIGITAL_VLSI_SOC_DESIGN_AND_PLANNING
 
-## DAY -1 Inception of open-source EDA, OpenLANE and Sky130 PDK
+## DAY -1 Inception of open-source EDA, OpenLANE and Sky130 PDK [Click here](Day-1/)
+
 
 ## DAY -2 Good floorplan vs bad floorplan and introduction to library cells
 
