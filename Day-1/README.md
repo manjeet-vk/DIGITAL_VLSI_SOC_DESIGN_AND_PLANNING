@@ -12,7 +12,7 @@ Pads are used to transfer signals between the external environment and the inter
 
 
 ![Screenshot 16-02-46](Day-1/Images/Screenshot 2025-12-14 215311.png)
-![a1](Day-1/Images/Screenshot 2025-12-14 215311.png)
+![a1]([Day-1/Images/Screenshot 2025-12-14 215311.png](https://github.com/manjeet-vk/Digital-VLSI-SoC-Design-and-Planning/blob/399522d9c66095b65fd9094af29c5ecc71ee6288/Day-1/Images/Screenshot%202025-12-14%20215311.png))
 
 
 
