@@ -62,7 +62,9 @@ Instructions act as the interface between software and hardware, allowing the pr
 To design a Digital ASIC, three essential elements are required:
 
 **RTL Design**
+
 **EDA Tools**
+
 **PDK Data**
 
 **What is RTL Design?**
@@ -81,7 +83,9 @@ Electronic Design Automation (EDA) tools assist in designing, simulating, verify
 
 Popular open-source EDA tools include:
 **1.OpenLANE**
+
 **2.OpenROAD**
+
 **3.Qflow**
 
 **What is PDK Data?**
