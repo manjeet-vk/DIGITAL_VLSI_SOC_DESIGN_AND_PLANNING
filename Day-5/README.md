@@ -10,9 +10,8 @@ The Power Distribution Network is responsible for delivering stable power and gr
 
 The PDN distributes:
 
-## VDD (power)
-
-## VSS (ground)
+### VDD (power)
+### VSS (ground)
 
 across the core area using power rails and metal straps.
 
