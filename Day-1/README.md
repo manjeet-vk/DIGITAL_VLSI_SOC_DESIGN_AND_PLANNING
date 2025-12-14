@@ -1,5 +1,9 @@
 # Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
 
+[Screenshot 16-02-46](Day-1/Images/Screenshot 2025-12-14 215311.png)
+![a1](Day-1/Images/Screenshot 2025-12-14 215311.png)
+
+
 ## Introduction to Chip Design
 ## Chip Components
 
